@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.tetito.com"
+xmlns="https://www.tetito.com"
+elementFormDefault="qualified">
+    
+    <xs:element name="response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resources">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="resource">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        
+                                        <xs:element name="str">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string"/>
+                                            </xs:simpleType>                                          
+                                        </xs:element>
+                                        
+                                        <xs:element name="date" > <!--type="xs:date" minOccurs="0" -->
+                                            <xs:simpleType >
+                                                <xs:restriction base="xs:date"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
