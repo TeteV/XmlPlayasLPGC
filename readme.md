@@ -13,17 +13,13 @@ There's a little XLM to know the weather of the differents beachs of Las Palmas
 Here's the validation on XSL in the same repositorie
 
 ```
-Aqui el xsl
+XSL in public_html > playaslpgs.xsl
 ```
 
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [VisualStudio](https://code.visualstudio.com/) - The web framework used
+* [NetBeans](https://netbeans.org//) - The web framework used
 
 
 ## Authors
