@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<response xmlns="https://www.tetito.com"
+<response>
+    <!--xmlns="https://www.tetito.com"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://www.tetito.com playaslpgc.xsd">
+xsi:schemaLocation="https://www.tetito.com playaslpgc.xsd" -->
 
     <resources name="response">
         <resource>
